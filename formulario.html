@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Formulario</title>
+</head>
+<body>
+    <h1>Formulário de Satisfação</h1>
+
+    <form action="pagina.html" method="post">
+<h2> Dados pessoais</h2>
+
+        <p>
+            <label for="login">Nome:</label>
+            <input type="text" placeholder="Insira seu nome..." id="login">
+        </p>
+        <P>
+            <label for="Email" > Email:</label>
+            <input type="email" placeholder="Insira seu email..." id="email">
+        </p>
+        <p> 
+            <label for="Número de telefone">Telefone:</label>
+            <input type="tel" placeholder="Insira seu telefone...">
+        </p>
+        <p>
+            Gênero:
+        </p>
+        <p>
+            <input type="radio" id="Feminino" name="Gênero"/>   
+            <label for="Feminino"> Feminino</label>
+
+            <input type="radio" id="Masculino" name="Gênero"/>   
+            <label for="Masculino"> Masculino</label>
+
+            <input type="radio" id="Não-binário" name="Gênero"/>   
+            <label for="Não-binário"> Não-binário</label>
+
+            <input type="radio" id="Outro" name="Gênero"/>   
+            <label for="Outro"> Outro</label>
+
+            <input type="radio" id="Prefiro não dizer" name="Gênero"/>   
+            <label for="Prefiro não dizer"> Prefiro não dizer</label>
+
+
+        </p>
+
+
+
+        <p>
+             Estado Civil:
+        </p>
+
+        <p>
+            <input type="radio" id="solteiro" name="estado-civil" />
+            <label for="solteiro">Solteiro(a) </label>
+
+            <input type="radio" id="casado" name="estado-civil"/>
+            <label for="casado"> Casado(a)</label>
+
+            <input type="radio" id="divorciado" name="estado-civil"/>
+            <label for="divorciado"> Divorciado(a)</label>
+
+            <input type="radio" id="separado" name="estado-civil"/>
+            <label for="separado"> Separado(a)</label>
+
+            <input type="radio" id="viuvo" name="estado-civil"/>
+            <label for="viuvo">Viúvo(a)</label>
+        </p>
+
+       
+        <p>
+            Estado que reside:
+            <select>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Distrito Federal</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+            </select>
+
+             <p>
+            <input type="checkbox" id="termos"/>
+            <label for="termos">Concordo com o compartilhamento das respostas com terceiros. </label>
+        </p>
+
+        </p>
+
+            <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
