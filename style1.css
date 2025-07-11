@@ -1,12 +1,14 @@
-#F20574 destaque
-#F26BAA fonte
-#F291BF fundo
+/* Color Theme Swatches in Hex 
+.defocused-red--lights-background-1-hex { color: #F2CED8; }
+.defocused-red--lights-background-2-hex { color: #F2A2C0; }
+.defocused-red--lights-background-3-hex { color: #F20574; }
+.defocused-red--lights-background-4-hex { color: #F26BAA; }
+.defocused-red--lights-background-5-hex { color: #F291BF; }*/
 
 
-/*.defocused-red--lights-background-1-hex { color: #F2CED8; }
-.defocused-red--lights-background-2-hex { color: #F2A2C0; }*/
-.destaque  { color: #F20574; }
-.fonte { color: #F26BAA; }
-.fundo { color: #F291BF; }
 
 
+html{ 
+    background: #F291BF;
+    color:#F20574;
+}
